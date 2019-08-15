@@ -3,23 +3,23 @@ def create_an_empty_array
 end
 
 def create_an_array
- a=["I", "am", "really", "learning"]
+ ["I", "am", "really", "learning"]
 end
 
 def add_element_to_end_of_array(array, element)
-  a<< "arrays!"
+  << "arrays!"
 end
 
 def add_element_to_start_of_array(array, element)
-   a.unshift "wow"
+   .unshift "wow"
 end
 
 def remove_element_from_end_of_array(array)
-  a.pop
+  .pop
 end
 
 def remove_element_from_start_of_array(array)
-  a.shift
+  .shift
   
 def retrieve_element_from_index(array, index_number)
   
